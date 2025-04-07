@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  #nav-container {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 570px;
+    margin: 50px auto;
+  }
+  
+  .nav-square {
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+    border: 1px solid #ccc;
+    background-color: #ddd; 
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 0.9em;
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+  }
+  
+  .nav-square.active {
+    border: 2px solid #333;
+  }
+  
+  .nav-square.correct {
+    background-color: #98f298;
+    border-color: #65ef65;
+    
+  }
+  
+  .nav-square.incorrect {
+    background-color: rgb(255, 60, 0);
+    
+  }
+  
+  #question-container {
+    margin: 20px 0;
+  }
+  
+  #question-number {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  #question-text {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  
+  #answers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .answer-btn {
+    width: 100%;
+    max-width: 400px;
+    margin: 5px 0;
+    padding: 10px 15px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    outline: none;
+  }
+  
+  .answer-btn:hover {
+    background-color: #e7e7e7;
+  }
+  
+  .answer-btn.selected {
+    background-color: #c6f7c6;
+    border-color: #90ee90;
+  }
+  
+  .answer-btn.correct {
+    background-color: #c6f7c6;
+    border-color: #90ee90
+  }
+  
+  .answer-btn.incorrect {
+    background-color: rgb(255, 60, 0);
+
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  #skip-btn {
+    background: #808080;
+    color: white;
+  }
+  
+  #submit-btn {
+    background: #007bff;
+    color: white;
+  }
+  
+  #finish-btn {
+    background: #dc3545;
+    color: white;
+  }
+  
+  #result-container h2 {
+    margin-bottom: 20px;
+  }
+  

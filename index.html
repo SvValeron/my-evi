@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мій тест ЄВІ</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Мій тест ЄВІ</h1>
+    <div id="nav-container"></div>
+    
+    <div id="result-container" style="display: none;"></div>
+    
+    <div id="question-container">
+      <h2 id="question-number"></h2>
+      <p id="question-text"></p>
+      <div id="answers"></div>
+    </div>
+    <div class="buttons">
+      <button id="skip-btn">Пропустити</button>
+      <button id="submit-btn">Відповісти</button>
+      <button id="finish-btn" style="display: none;">Завершити тест</button>
+    </div>
+
+  </div>
+
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
